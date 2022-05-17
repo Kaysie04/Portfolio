@@ -43,6 +43,15 @@
     color:#000000;
 }
 
+/* apply styles to footer*/
+.footer {
+    display:flex;
+    flex: wrap;
+    justify-content: center;
+    padding-top:30px;
+}
+
+
 /* apply styles to hero*/
 .hero {
     height: 800px;
@@ -66,6 +75,44 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* apply styles to project section */
+.project h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.project-content {
+    display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.project-content h4 a {
+    font-size:10px;
+}
+
+/* apply styles to contact section */
+.contact h2 {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    padding-top:100px;
+    padding-bottom:30px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    align-items: center;
+    padding-bottom:30px;
+
 }
 
 
