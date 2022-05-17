@@ -23,10 +23,8 @@
 
 .header nav {
     font-size: 20px;
-    padding-top: 30px;
+    padding-top: 50px;
     margin: 10px;
-   
-
 }
 
 .header nav ul {
@@ -54,7 +52,7 @@
 
 /* apply styles to hero*/
 .hero {
-    height: 800px;
+    height: 200px;
     background-size: cover;
     background-image: url("/Users/kaysieanderson/Desktop/bootcamp-class/Challenges/Challenge-2/Portfolio/assets/images/backgroundimage.jpg");
 }
@@ -78,6 +76,7 @@
 }
 
 /* apply styles to project section */
+
 .project h2 {
     display: flex;
     justify-content: center;
@@ -85,12 +84,13 @@
 }
 
 .project-content {
-    display: flex;
-	flex-direction:row;
+    display:flex;
+	flex-direction:column;
 	flex-wrap: wrap;
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    
 }
 
 .project-content h4 a {
