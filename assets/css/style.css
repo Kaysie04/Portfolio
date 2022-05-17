@@ -5,25 +5,28 @@
 
   body {
       color: #000000;
-      background-color: #fcfdfd;
+      background-color:ghostwhite;
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   /* apply styles to <header> */
   .header {
-    padding: 10px;
+    padding: 5px;
+    height: 40px;
+    background-color: #80bfff;
     } 
 
 .header h1 {
     display:inline-block;
-    font-size:40px;
+    font-size:20px;
     padding-top: 20px;
 }
 
 .header nav {
     font-size: 20px;
+    margin: 5px;
     padding-top: 50px;
-    margin: 10px;
+    float: right;
 }
 
 .header nav ul {
@@ -32,7 +35,7 @@
 
 .header nav ul li {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
  a {
@@ -51,14 +54,17 @@
 
 /* apply styles to hero*/
 .hero {
-    height: 200px;
+    height: 300px;
     background-size: cover;
     background-image: url("/Users/kaysieanderson/Desktop/bootcamp-class/Challenges/Challenge-2/Portfolio/assets/images/backgroundimage.jpg");
 }
 
+/* apply styles to about section */
+
+
 .about {
     height: 400px;
-    width: 100%;
+    
 }
 
 .about h2 {
@@ -69,12 +75,15 @@
 
 .about div h3 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-/* apply styles to about section */
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-evenly;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+    width: 50%;
+} 
 
 /* apply styles to project section */
 
