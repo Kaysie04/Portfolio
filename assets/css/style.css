@@ -77,6 +77,12 @@
 
 /* apply styles to project section */
 
+.project {
+    width: 55%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .project h2 {
     display: flex;
     justify-content: center;
@@ -89,12 +95,17 @@
 	flex-wrap: wrap;
     margin-bottom: 20px;
     padding: 50px;
-    height: 200px;
-    
+    height: 200px; 
+    background-color: ;
 }
 
 .project-content h4 a {
     font-size:10px;
+}
+
+.project-content img {
+    max-height: 200px;
+    
 }
 
 /* apply styles to contact section */
