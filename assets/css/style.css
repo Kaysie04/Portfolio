@@ -74,16 +74,19 @@
     align-items: center;
 }
 
+/* apply styles to about section */
+
 /* apply styles to project section */
 
 .project {
-    display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
     justify-content: center;
-    
-    
+}
+
+.project h2 {
+   
 }
 
 .project-content {
@@ -98,13 +101,8 @@
     height: 200px; 
     background-color: #80bfff;
 }
-
-.project-content h3 a {
-
-}
-
 .project-content h4 a {
-    font-size:10px;
+    font-size:15px;
 }
 
 .project-content img {
