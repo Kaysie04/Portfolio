@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+      color: #000000;
+      background-color: #e6faff;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  /* apply styles to <header> */
+  .header {
+    padding: 10px;
+    } 
+
+.header h1 {
+    display:inline-block;
+    font-size:40px;
+    padding-top: 20px;
+}
+
+.header nav {
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 10px;
+   
+
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+ a {
+    text-decoration: none;
+    color:#000000;
+}
+
+/* apply styles to hero*/
+.hero {
+    height: 800px;
+    background-size: cover;
+    background-image: url("/Users/kaysieanderson/Desktop/bootcamp-class/Challenges/Challenge-2/Portfolio/assets/images/backgroundimage.jpg");
+}
+
+.about {
+    height: 800px;
+    width: 100%;
+}
+
+.about h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.about div h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
