@@ -7,7 +7,7 @@
       color: #000000;
       /*background-color:#d9dcd6;*/
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      background-image: url("/Users/kaysieanderson/Desktop/bootcamp-class/Challenges/Challenge-2/Portfolio/assets/images/background-image2.png");
+      background-image: url("../images/background-image2.png");
   }
 
   /* apply styles to <header> */
@@ -53,21 +53,19 @@
 	align-content: flex-end;
     padding-top:30px;
 }
-.footer div a {
+.footer a {
     padding-bottom: 20px;
-    color: red;
 }
 
 
 /* apply styles to hero*/
 .hero {
-    height: 400px;
+    height: 300px;
 }
 
 .hero img {
     float:left;
     margin: 10px;
-    padding-top: 60px;
     border-radius: 50px; 
     border: solid 5px #b1d0ca;
 }
@@ -75,59 +73,67 @@
 /* apply styles to about section */
 
 .about {
-    height: 1200px;
-    /*background: #b1d0ca;*/  
-}
-
-.about h2 {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-    margin: min-content;
-}
-
-.about div h3 {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     align-content: flex-end;
+    /*height: 1200px;*/
+    /*background: #b1d0ca;*/  
+}
+
+.about div h3 {
     margin: min-content;
     border: solid 3px #62b0a5;
     box-sizing: border-box;
     width: 200px;
     height: 30px;
-    padding: 10px;
     border-radius: 50px; 
+    text-align: center;
 } 
 .about img {
     border-radius: 50px;   
     border: solid 7px #b1d0ca;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
+#about-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
 /* apply styles to project section */
 
-.project {
-    display: flex;
-    justify-content: center;
-
-}
-
-.project h2 {
+#project-h2 {
     text-align: center;
+    padding-bottom: 100px;
    
 }
 
-.project-content {
+.project {
     display: flex;
-	flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: row;
 	flex-wrap:wrap;
-	justify-content: center;
 	align-items: center;
 	align-content: space-evenly;
-    height: 200px; 
+
+}
+
+.project-content {
+    border: solid 3px #b1d0ca;
+    border-radius: 50px; 
+    padding: 10px;
+    
+
   
+}
+
+.project-content h3 {
+    text-align: center;
+    padding-bottom: 5px;
 }
 .project-content h4 a {
     font-size:15px;
@@ -160,6 +166,17 @@
     align-items: center;
     padding-bottom:30px;
 }
+
+/* media queries*/
+@media screen and ( max-width: 980px)
+
+        
+
+    
+    
+
+ 
+    
 
 
 
