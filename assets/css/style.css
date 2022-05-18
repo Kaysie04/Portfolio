@@ -68,7 +68,8 @@
 /* apply styles to about section */
 
 .about {
-    height: 400px;
+    height: 1200px;
+    background: #b1d0ca;
     
 }
 
@@ -100,6 +101,7 @@
 }
 
 .project h2 {
+    text-align: center;
    
 }
 
