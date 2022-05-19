@@ -12,10 +12,9 @@
 
         <!-- Header-->
 
-        <header id="#reset" class="header">
+        <header id="reset" class="header">
 
             <h1>Hello, I'm Kaysie Anderson,</h1>
-            <h1>I'm a full-stack web developer. </h1>
             
             <!-- Navigation-->
             <nav>
@@ -24,9 +23,9 @@
             <!--List item element-->
                  
                  <!--Anchor element-->
-                    <li> 
+                   <!-- <li> 
                         <a href="#home">Home</a> 
-                    </li>
+                    </li> -->
 
                     <li> 
                         <a href="#about">About</a> 
@@ -46,84 +45,101 @@
 
         <!--Hero section-->
 
-        <div class= "hero"></div>
+        <div class= "hero">
+            <!-- my image-->   
+            <img src= "assets/images/my-image.jpg" alt=""
+            width = 350px
+            height= 450px;   
+            />
+            <p>I'm a full-stack web developer. </br>
+                I'm passionate about building and optimizing web pages, </br>
+                creating innovative designs and </br>
+                developing and maintaining applications. </p>
+        </div>
+
 
         <!-- About section-->
 
+        <h2 id="about-title"> About </h2>
         <section id="about" class= "about">
-            <h2> About </h2>
+           
             <!-- Skill 1-->
             <div>
                 <h3> Creative</h3>
+                
+                        <img src= "assets/images/creativeicon.jpeg" alt=""
+                        width = 100px
+                        height= 100px;
+                        />
             
-                <div id="icon-1"></div>
             </div>
 
                <!-- Skill 2-->
             <div>
                 <h3> Detail Oriented</h3>
-                 <div id="icon-2"></div>
+                 
+                    <img src= "assets/images/detailorientedicon.jpeg" alt=""
+                    width = 100px
+                    height= 100px;
+                    />
             </div>
                
             <!-- Skill 3-->
             <div>
-                <h3> Adapative</h3>
-                <div id="icon-3"></div>
+                <h3> Adaptive</h3>
+                        <img src= "assets/images/adapatabilitiyicon.jpeg" alt=""
+                        width = 100px
+                        height= 100px;
+                        />
+                    
             </div>
                
             <!-- Skill 4-->
             <div>
-                <h3> Strong Communication</h3>
-                <div id="icon-4"></div>
+                <h3>Communication</h3>
+                        <img src= "assets/images/communicationicon.jpeg" alt=""
+                        width = 100px
+                        height= 100px;
+                        />
             </div>
 
-            <!--my image-->
-            <div id="my-image"> 
-                <img src= "" alt=""/>
 
-
-            </div>
-
-            <!--my description-->
-            <div id="my-description"> 
-                <h3> Bio</h3>
-                <p> I am full-stack web developer in training at the University of Austin Texas</p>
-                <h4> <a href="#contact">Let's create something!</a></h4>
-            </div>
-
-            <!--my languages-->
+            <!--my languages
             <div id="my-languages">
+                <h4> Skill Set</h4>
                 <ul>
                     <li> HTML</li>
                     <li> CSS </li>
                     <li> JavaScript</li>
                 </ul>
             </div>
+
+            <div> 
+                <h4> <a href="#contact">Let's create something!</a></h4>
+            </div> -->
         </section>
 
         <!-- Project section-->
-         <section id="portfolio" class="project">
+        <h2 id="project-h2">Projects</h2>
+        <section id="portfolio" class="project">
 
-                <h2>Projects</h2>
-
-                <div class="project-content">
-                    <h3> Run-Buddy </a> </h3>
-                    <img src="assets/images/run-buddy.jpeg"/>
-                    <h4> <a href="https://kaysie04.github.io/run-buddy/" target="_blank"> Discover More</a></h4>
+                <div id="run-buddy" class="project-content">
+                    <h3> Run-Buddy</h3>
+                    <a  href="https://kaysie04.github.io/run-buddy/" target="_blank">
+                        <img src="assets/images/run-buddyimag.jpg.png" />
+                    </a>
                 </div>
 
-                <div class="project-content">
-                    <h3> <a href= "" target="_blank"> Horiseon Refactor </a></h3>
-                    <img src="assets/images/horiseon.jpg"/>
-                    <h4> <a href="https://kaysie04.github.io/Challenge-1/" target="_blank"> Discover More</a></h4>
+                <div id="horiseon" class="project-content">
+                    <h3>Horiseon Refactor</h3>
+                   
+                 <a href="https://kaysie04.github.io/Challenge-1/" target="_blank">  <img src="assets/images/horiseon.jpg"/></a>
                 </div>
 
-                <div class="project-content"> 
-                    <h3> <a href = "" target="_blank"> Robot Gladiators </a><h3>
-                    <img src="assets/images/robot-gladiator.jpg"/>
-                     <h4><a href="https://kaysie04.github.io/robot-gladiators/"> Discover More</a></h4>
+                <div id="robot" class="project-content"> 
+                    <h3>Robot Gladiators<h3>
+                    <a href="https://kaysie04.github.io/robot-gladiators/"> <img src="assets/images/robot-gladiator.jpg"/></a>
                 </div>
-            </section>
         </section>
 
             
@@ -149,15 +165,9 @@
 
         <!-- footer-->
         <footer class="footer"> 
-            <div>
-                <a href="#reset" > Top of Page</a>
-            </div>
-        
-            <div>
-                KAYSIE ANDERSON &copy; 2022
-            </div>
-            
-            
+            <a href="#reset" > Top of Page</a>
+            <h4>KAYSIE ANDERSON &copy; 2022</h4>
+               
         </footer>
     </body>
 </html>
