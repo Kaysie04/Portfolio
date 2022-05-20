@@ -1,4 +1,5 @@
-# Kaysie Anderson Full-Stack Web Developer
+# Discover Kaysie: 
+Full-Stack Web Developer
 
 ## About Me
 I'm a full-stack web developer.
@@ -7,9 +8,10 @@ creating innovative designs and
 developing and maintaining applications.
 
 ## Skills
-1. HTML
-2. CSS
-3. JavaScript
+ 1. Creative
+ 2. Detail Oriented
+ 3. Adaptive
+ 4. Communication
 
-## Porfolio Link
-![alt text](assets/images/screenshot.png)
+## Portfolio Link
+ https://kaysie04.github.io/Portfolio/
